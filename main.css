@@ -1,0 +1,84 @@
+/*css resets*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+:root {
+  --dark-violent: hsl(256, 26%, 20%);
+  --greyish-blue: hsl(216, 30%, 68%);
+  --very-dark-violent: hsl(270, 9%, 17%);
+  --dark-greyish-violent: hsl(273, 4%, 51%);
+  --very-light-gray: hsl(0, 0%, 98%);
+  --section-padding: 18px 60px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style-type: none;
+}
+
+/* utility classes/styles */
+body {
+  font-family: "Karla", serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "DM Serif Display", serif;
+}
+.action-link {
+  border: 1px solid var(--dark-greyish-violent);
+  color: var(--dark-greyish-violent);
+}
+header,
+section,
+footer {
+  padding: var(--section-padding);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav a {
+  margin: 0px 12px;
+  text-transform: uppercase;
+  color: var(--very-dark-violent);
+}
+header .action-link {
+  border-color: var(--very-dark-violent);
+  color: var(--very-dark-violent);
+}
+.hero {
+  display: flex;
+  align-items: center;
+  color: var(--very-light-gray);
+  background-color: var(--dark-violent);
+}
+.hero .text-side {
+  flex: 1;
+  padding-right: 30px;
+}
+.hero .image-side {
+  flex: 1;
+}
+
+.hero .image-side img {
+  width: 100%;
+  position: relative;
+  top: 100px;
+}
+.hero .text-side p {
+  font-size: 20px;
+}
+.hero .action-link {
+  border-color: inherit;
+  color: inherit;
+  display: inline-block;
+  margin-top: 30px;
+}

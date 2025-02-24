@@ -30,13 +30,14 @@ The designs were created to the following widths:
 
 ### Headings
 
-- Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display)
+- Family: [DM Serif Display](https://fonts..googlecom/specimen/DM+Serif+Display)
 - Weights: 400
 
 ### Body
 
-- Family: [Karla](https://fonts.google.com/specimen/Karla)
-- Weights: 400, 700
+- Family: [Karla](https://.google.com/specimen/Karla)
+
+- Weights: 400, 700fonts
 
 ## Icons
 
